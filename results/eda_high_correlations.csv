@@ -1,0 +1,22 @@
+feature_a,feature_b,correlation
+radius_mean,perimeter_mean,0.9979
+radius_worst,perimeter_worst,0.9937
+radius_mean,area_mean,0.9874
+perimeter_mean,area_mean,0.9865
+radius_worst,area_worst,0.984
+perimeter_worst,area_worst,0.9776
+radius_se,perimeter_se,0.9728
+perimeter_mean,perimeter_worst,0.9704
+radius_mean,radius_worst,0.9695
+perimeter_mean,radius_worst,0.9695
+radius_mean,perimeter_worst,0.9651
+area_mean,radius_worst,0.9627
+area_mean,area_worst,0.9592
+area_mean,perimeter_worst,0.9591
+radius_se,area_se,0.9518
+perimeter_mean,area_worst,0.9415
+radius_mean,area_worst,0.9411
+perimeter_se,area_se,0.9377
+concavity_mean,concave points_mean,0.9214
+texture_mean,texture_worst,0.912
+concave points_mean,concave points_worst,0.9102

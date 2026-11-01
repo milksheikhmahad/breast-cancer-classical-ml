@@ -1,0 +1,36 @@
+metric,best_model,other_model,mean_difference,t,p_raw,p_holm,significant_at_0.05
+f2,Logistic Regression,KNN,0.02494,1.6421,0.10697,0.42789,False
+f2,Logistic Regression,SVM,0.00334,0.28919,0.77365,0.90328,False
+f2,Logistic Regression,ID3,0.05594,2.47867,0.01668,0.08339,False
+f2,Logistic Regression,C4.5,0.05747,3.20661,0.00237,0.01657,True
+f2,Logistic Regression,CART,0.06117,2.82912,0.00675,0.04048,True
+f2,Logistic Regression,Random Forest,0.02625,1.38255,0.17307,0.51921,False
+f2,Logistic Regression,XGBoost,0.01152,0.75874,0.45164,0.90328,False
+recall,Logistic Regression,KNN,0.03013,1.72704,0.09046,0.36184,False
+recall,Logistic Regression,SVM,0.00374,0.25425,0.80037,0.93339,False
+recall,Logistic Regression,ID3,0.05566,2.06916,0.04383,0.21913,False
+recall,Logistic Regression,C4.5,0.05707,2.52577,0.01483,0.1038,False
+recall,Logistic Regression,CART,0.06118,2.32369,0.02433,0.146,False
+recall,Logistic Regression,Random Forest,0.02784,1.18801,0.24055,0.72166,False
+recall,Logistic Regression,XGBoost,0.01319,0.73359,0.4667,0.93339,False
+mcc,Logistic Regression,KNN,0.0249,1.10118,0.2762,0.82859,False
+mcc,Logistic Regression,SVM,0.00413,0.26863,0.78934,1.0,False
+mcc,Logistic Regression,ID3,0.08817,3.13838,0.00287,0.01437,True
+mcc,Logistic Regression,C4.5,0.09031,4.01887,0.0002,0.00141,True
+mcc,Logistic Regression,CART,0.09477,3.58316,0.00078,0.00468,True
+mcc,Logistic Regression,Random Forest,0.03565,1.56312,0.12446,0.49784,False
+mcc,Logistic Regression,XGBoost,0.01363,0.66478,0.50931,1.0,False
+roc_auc,Logistic Regression,KNN,0.01988,1.80647,0.07699,0.30795,False
+roc_auc,Logistic Regression,SVM,-0.00034,-0.15344,0.87868,1.0,False
+roc_auc,Logistic Regression,ID3,0.05014,3.60899,0.00072,0.0036,True
+roc_auc,Logistic Regression,C4.5,0.05502,3.8477,0.00035,0.00226,True
+roc_auc,Logistic Regression,CART,0.0622,3.86837,0.00032,0.00226,True
+roc_auc,Logistic Regression,Random Forest,0.00361,0.78798,0.4345,1.0,False
+roc_auc,Logistic Regression,XGBoost,0.00068,0.28813,0.77446,1.0,False
+accuracy,Logistic Regression,KNN,0.01177,1.10454,0.27476,0.82427,False
+accuracy,Logistic Regression,SVM,0.00194,0.26431,0.79265,1.0,False
+accuracy,Logistic Regression,ID3,0.04131,3.14491,0.00282,0.01411,True
+accuracy,Logistic Regression,C4.5,0.04254,3.9616,0.00024,0.00169,True
+accuracy,Logistic Regression,CART,0.04465,3.56083,0.00083,0.005,True
+accuracy,Logistic Regression,Random Forest,0.01688,1.56373,0.12432,0.49727,False
+accuracy,Logistic Regression,XGBoost,0.00634,0.65528,0.51535,1.0,False
